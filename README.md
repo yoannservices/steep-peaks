@@ -58,6 +58,14 @@ src/audio       sons synthétisés
 src/main.js     boucle principale
 ```
 
+## Fiche technique
+
+Résumé de ce que fait le code, tenu à jour à chaque modification : le lire suffit pour vérifier une information sans relire tout le jeu.
+
+- **Personnages** : `skier_low_poly_character.glb` et `low_poly_snowboarder.glb`, découpés en articulations (`src/player/character.js`).
+- **Caméras (C, `src/camera/followcam.js`)** : Vue 3e personne, Vue subjective, Caméra libre (ZQSD, Espace/Maj, glisser pour regarder).
+- **Sauvegarde** : `steepPeaks.v1`.
+
 ## Crédits des modèles 3D
 
 Skieur et snowboardeur : voir `assets/models/CREDITS.md` (CC-BY, Sketchfab).
